@@ -1,9 +1,9 @@
 package br.com.zgsolucoes
 
-import br.com.zgsolucoes.aop.dominio.Tree
-import br.com.zgsolucoes.aop.dominio.Car
-import br.com.zgsolucoes.aop.repositorios.ArvoreRepository
-import br.com.zgsolucoes.aop.repositorios.CarroRepository
+import br.com.zgsolucoes.aop.domain.Tree
+import br.com.zgsolucoes.aop.domain.Car
+import br.com.zgsolucoes.aop.repository.ArvoreRepository
+import br.com.zgsolucoes.aop.repository.CarroRepository
 import groovy.transform.CompileStatic
 import groovy.util.logging.Slf4j
 import io.micronaut.discovery.event.ServiceReadyEvent

@@ -1,6 +1,6 @@
 package br.com.zgsolucoes.aop.tenant
 
-import br.com.zgsolucoes.aop.dominio.EntidadeMultiTenant
+import br.com.zgsolucoes.aop.domain.EntidadeMultiTenant
 import groovy.transform.CompileStatic
 import org.hibernate.Filter
 import org.hibernate.Session

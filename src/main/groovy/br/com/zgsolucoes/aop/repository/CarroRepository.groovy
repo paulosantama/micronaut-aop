@@ -1,12 +1,12 @@
-package br.com.zgsolucoes.aop.repositorios
+package br.com.zgsolucoes.aop.repository
 
-import br.com.zgsolucoes.aop.dominio.Tree
+import br.com.zgsolucoes.aop.domain.Car
 import groovy.transform.CompileStatic
 import io.micronaut.data.annotation.Repository
 import io.micronaut.data.repository.CrudRepository
 
 @Repository
 @CompileStatic
-interface ArvoreRepository extends CrudRepository<Tree, UUID> {
+interface CarroRepository extends CrudRepository<Car, UUID> {
 
 }

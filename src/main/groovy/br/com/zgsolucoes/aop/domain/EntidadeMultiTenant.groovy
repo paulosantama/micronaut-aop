@@ -1,4 +1,4 @@
-package br.com.zgsolucoes.aop.dominio
+package br.com.zgsolucoes.aop.domain
 
 import br.com.zgsolucoes.aop.tenant.TenantManager
 import groovy.transform.CompileStatic

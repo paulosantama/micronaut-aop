@@ -1,4 +1,4 @@
-package br.com.zgsolucoes.aop.dominio
+package br.com.zgsolucoes.aop.domain
 
 import groovy.transform.CompileStatic
 import groovy.transform.EqualsAndHashCode
@@ -12,9 +12,9 @@ import javax.persistence.Entity
 @Builder(includeSuperProperties = true)
 @EqualsAndHashCode(includeFields = true)
 @ToString(includePackage = false, includeFields = true, includeNames = true, includeSuperProperties = true)
-class Tree extends EntidadeMultiTenant {
-	
-	String family
+class Car extends EntidadeMultiTenant {
 
-	String species
+	String brand
+
+	String model
 }

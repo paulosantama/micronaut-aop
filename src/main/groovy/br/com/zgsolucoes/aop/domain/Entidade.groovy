@@ -1,4 +1,4 @@
-package br.com.zgsolucoes.aop.dominio
+package br.com.zgsolucoes.aop.domain
 
 import com.vladmihalcea.hibernate.type.array.StringArrayType
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType
