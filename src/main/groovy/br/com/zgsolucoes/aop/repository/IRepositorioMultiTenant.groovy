@@ -5,6 +5,6 @@ import br.com.zgsolucoes.aop.annotations.WithUserDetails
 
 @WithTenant
 @WithUserDetails
-interface IRepositorioMultiTenant<T> {
+interface IRepositorioMultiTenant<T> extends RepositorioPadrao<T> {
 
 }
