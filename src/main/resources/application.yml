@@ -1,6 +1,11 @@
 micronaut:
     application:
         name: aop
+    multitenancy:
+        tenantresolver:
+            httpheader:
+                header-name: organization
+                enabled: true
 
 datasources:
     default:
